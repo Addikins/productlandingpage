@@ -1,13 +1,15 @@
 body {
+    text-align: center;
     font-size: 62.5%;
     margin: 0;
     padding: 0;
-background-image: -webkit-linear-gradient(top, #000, purple);
-background-image: -moz-linear-gradient(top, #000, gray);
-background-image: -ms-linear-gradient(top, #000, gray);
-background-image: -o-linear-gradient(top, #000, gray);
-background-image: linear-gradient(top, #000, gray);
+ background-image: -webkit-linear-gradient(top, #000, purple);
+    background-image: -moz-linear-gradient(top, #000, gray);
+     background-image: -ms-linear-gradient(top, #000, gray);
+      background-image: -o-linear-gradient(top, #000, gray);
+         background-image: linear-gradient(top, #000, gray);
 background-attachment: fixed;
+
 }
 * {
     margin: 0;
@@ -17,7 +19,10 @@ background-attachment: fixed;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+h1 {
+margin: 0;
+text-shadow: 2px 2px 3px gray;
+}
 .wrapper {
     font-size: 1.6em;
     padding: 2em;
@@ -29,4 +34,17 @@ background-attachment: fixed;
     background-image: url("eastwind.png");
     background-repeat: no-repeat;
     background-position: top right;
+}
+#header-img {
+    margin: 0;
+    border: 2px solid #000;
+    height: 40em;
+    
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    border-radius: 3%;
+
+    -webkit-box-shadow: 2px 2px 3px 2px gray;
+    -moz-box-shadow: 2px 2px 3px 2px gray;
+    box-shadow: 2px 2px 3px 2px gray;
 }
