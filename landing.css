@@ -49,14 +49,17 @@ hr {
     margin-top: 1em;
 }
 #nav-bar {
-    height: 4em;
+    height: 5em;
     background-color: burlywood;
     position: fixed;
     width: 100%;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 2em;
 }
 .nav-link {
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 1em;
     padding-right: 1em;
     color: purple;
@@ -86,7 +89,7 @@ hr {
     font-size: 1.6em;
     padding: 0em 0em 4em 0em;
     margin: 0 auto;
-    width: 900px;
+    width: 1200px;
     height: minmax(1000px, 2000px);
     background-color: white;
     border-radius: 5%;
