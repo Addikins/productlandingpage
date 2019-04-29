@@ -64,14 +64,17 @@ hr {
 .nav-link:hover {
     color: whitesmoke;
 }
-#construction-img {
+/* #construction-img {
     height: 20em;
     margin-top: 5em;
-}
+    <img id="construction-img"
+        src="https://user-images.githubusercontent.com/39199837/56266392-ef758100-60a0-11e9-8a5c-4b2339d3ed2d.png"
+        alt="Construction Image"><br>
+} */
 #header-img {
     border: 2px solid #000;
-    margin-top: 4em;
-    margin-bottom: 1em;
+    margin-top: 6em;
+    margin-bottom: 2em;
     height: 10em;
     width: 45em;
 
@@ -92,7 +95,9 @@ hr {
     background-repeat: no-repeat;
     background-position: top right; */
 }
-
+.body-div {
+padding-bottom: 2em;
+}
 #video {
     border: 5px solid burlywood;
     border-radius: 2px;
@@ -127,7 +132,6 @@ height: 2em;
     height: 2em;
 }
 #contact {
-padding-bottom: 2em;
 }
 #contactlinks {
 float: center;
