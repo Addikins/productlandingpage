@@ -103,7 +103,7 @@ hr {
 .body-div {
 padding-bottom: 2em;
 }
-#video {
+#video, .gallery img {
     border: 5px solid burlywood;
     border-radius: 2px;
 }
