@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
  background-image: -webkit-linear-gradient(top, 
- #000, rgb(0, 0, 116), rgb(19, 67, 172));
+ #001d6d, #004974, #1bbce4);
  background-image: -moz-linear-gradient(top, #000, darkblue);
   background-image: -ms-linear-gradient(top, #000, darkblue);
    background-image: -o-linear-gradient(top, #000, darkblue);
@@ -28,7 +28,7 @@ margin: 0;
 text-shadow: 2px 2px 3px gray;
 padding-top: 2em;
 }
-h2 {
+h2, h3 {
     margin: 0;
     text-shadow: 1px 1px 2px gray;
     padding-top: 2em;
@@ -42,7 +42,7 @@ p {
 hr {
     width: 50%;
     margin: 0 auto;
-    border: 2px solid rgb(0, 0, 116);
+    border: 2px solid #007427;
     border-radius: 50%;
     justify-content: center;
     margin-bottom: 2em;
@@ -62,7 +62,7 @@ hr {
     font-size: 22px;
     padding-left: 1em;
     padding-right: 1em;
-    color: purple;
+    color: #004974;
 }
 .nav-link:hover {
     color: whitesmoke;
@@ -75,24 +75,23 @@ hr {
         alt="Construction Image"><br>
 } */
 #header-img {
-    border: 2px solid #000;
     margin-top: 6em;
     margin-bottom: 2em;
-    height: 10em;
-    width: 45em;
+    height: 20em;
 
     -webkit-border-radius: 3%;
     -moz-border-radius: 3%;
     border-radius: 3%;
 }
 .wrapper {
+    justify-self: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     font-size: 1.6em;
     padding: 0em 0em 4em 0em;
     margin: 0 auto;
-    width: 1200px;
+    width: 1250px;
     height: minmax(1000px, 2000px);
     background-color: white;
     border-radius: 5%;
@@ -108,6 +107,18 @@ padding-bottom: 2em;
     border: 5px solid burlywood;
     border-radius: 2px;
 }
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+    padding: 2em;
+    margin: 1em;
+}
+.gallery img{
+    height: 13em;
+    width: 23em;
+}
 .game-links {
     display: inline-block;
     width: 9em;
@@ -118,6 +129,9 @@ padding-bottom: 2em;
     font-size: 1.1em;
     border: 2px solid black;
     background-color: burlywood;
+}
+#steamlink {
+    margin-top: 2em;
 }
 .game-links:hover {
     color: white;
@@ -144,14 +158,18 @@ float: center;
 padding-right: 1em;
 padding-left: 1em;
 }
+#contactlinks p{
+    font-size: 15px;
+    margin: 0 auto;
+}
 #contactlinks img {
     height: 3em;
 }
 #contactlinks img:hover {
     background: #cacaca;
 }
-#contactlinks a:hover {
-    background:  black;
+#contactlinks p:hover {
+    color: #007427;
 }
 
 @media screen and (max-width: 900px){
