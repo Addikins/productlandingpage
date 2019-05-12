@@ -3,16 +3,16 @@ body {
     font-size: 62.5%;
     margin: 0;
     padding: 0;
-   
- background-image: -webkit-linear-gradient(top, 
- #001d6d, #004974, #1bbce4);
- background-image: -moz-linear-gradient(top, #000, darkblue);
-  background-image: -ms-linear-gradient(top, #000, darkblue);
-   background-image: -o-linear-gradient(top, #000, darkblue);
-      background-image: linear-gradient(top, #000, darkblue);
-background-attachment: fixed;
 
- background-image: url("wallpaper_06.png");
+/* Original Gradient Background */
+  background-image: -webkit-linear-gradient(top, #001d6d, #004974, #1bbce4);
+     background-image: -moz-linear-gradient(top, #001d6d, #004974, #1bbce4);
+      background-image: -ms-linear-gradient(top, #001d6d, #004974, #1bbce4);
+       background-image: -o-linear-gradient(top, #001d6d, #004974, #1bbce4);
+          background-image: linear-gradient(top, #001d6d, #004974, #1bbce4);
+    background-attachment: fixed;
+/*Background Cover Image */
+    background-image: url("wallpaper_06.png");
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -23,18 +23,17 @@ background-attachment: fixed;
 * {
     margin: 0;
     padding: 0;
-
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 a:link, a:visited {
-text-decoration: none;
+    text-decoration: none;
 }
 h1 {
-margin: 0;
-text-shadow: 2px 2px 3px gray;
-padding-top: 2em;
+    margin: 0;
+    text-shadow: 2px 2px 3px gray;
+    padding-top: 2em;
 }
 h2, h3 {
     margin: 0;
@@ -56,25 +55,22 @@ hr {
     margin-bottom: 2em;
     margin-top: 1em;
 }
-::-webkit-scrollbar {
-  width: 6px;
-  border-left: 1px solid #ffffff;
-  height: 2em;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #ffffff; 
+::-webkit-scrollbar {
+    width: 6px;
+    border-left: 1px solid #ffffff;
+    height: 2em;
 }
-/* Handle */
+::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
 ::-webkit-scrollbar-thumb {
     background: #222;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+    background: #555; 
 }
+
 #nav-bar {
     height: 5em;
     background-color: burlywood;
@@ -99,7 +95,6 @@ hr {
     margin-top: 6em;
     margin-bottom: 2em;
     height: 20em;
-
     -webkit-border-radius: 3%;
     -moz-border-radius: 3%;
     border-radius: 3%;
@@ -119,8 +114,9 @@ hr {
 
 }
 .body-div {
-padding-bottom: 2em;
+    padding-bottom: 2em;
 }
+
 #video, .gallery img {
     border: 5px solid burlywood;
     border-radius: 2px;
@@ -136,6 +132,7 @@ padding-bottom: 2em;
     height: 13em;
     width: 23em;
 }
+
 .game-links {
     display: inline-block;
     width: 9em;
@@ -152,7 +149,6 @@ padding-bottom: 2em;
 }
 .game-links:hover {
     color: white;
-
 }
 
 #form {
@@ -160,8 +156,8 @@ padding-bottom: 2em;
     padding-bottom: 4em;
 }
 #email {
-height: 3em;
-width: 20em;
+    height: 3em;
+    width: 20em;
 }
 #submit {
     height: 3em;
@@ -172,16 +168,17 @@ width: 20em;
     box-shadow:2px 2px 3px gray;
     border-radius: 5%;
 }
+
 #anchor {
     margin-top: 4em;
     /*To Do, create margin between links*/
 }
 .contactlinks {
-float: center;
-padding-right: 1em;
-padding-left: 1em;
-color: #007427;
-font-size: 20px;
+    float: center;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: #007427;
+    font-size: 20px;
 }
 .contactlinks a:hover{
     color: #089737;
@@ -190,32 +187,17 @@ font-size: 20px;
     height: 3em;
 }
 
-
 @media screen and (max-width: 1200px){
-html, body {
-    max-width: 100vw;
-    
-}
-    .wrapper {
-max-width: 80vw;
-}
-#video {
-    max-width: 60vw;
-}
-.gallery {
-    grid-template-columns: repeat(2, 1fr);
-}
+    html, body {max-width: 100vw;}
+    .wrapper {max-width: 80vw;}
+    #video {max-width: 60vw;}
+    .gallery {grid-template-columns: repeat(2, 1fr);}
 }
 
 @media screen and (max-width: 950px) {
-    html, body {max-width: 100vw}
+    html, body {max-width: 100vw;}
     .wrapper {max-width: 80vw;}
     #video {max-width: 60vw;}
-    .gallery {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    #steamlink {
-        width: 90%;
-    }
+    .gallery {grid-template-columns: repeat(1, 1fr);}
+    #steamlink {width: 90%;}
 }
