@@ -169,22 +169,27 @@ hr {
     border-radius: 5%;
 }
 
-#anchor {
-    margin-top: 4em;
-    /*To Do, create margin between links*/
-}
+
 .contactlinks {
-    float: center;
     padding-right: 1em;
     padding-left: 1em;
     color: #007427;
     font-size: 20px;
 }
-.contactlinks a:hover{
-    color: #089737;
-}
 .contactlinks img {
+    border-radius: 15%;
     height: 3em;
+}
+.contactlinks img:hover {
+    background-color: #ccc;
+}
+
+#links {
+    margin: 1em auto 2em auto;
+    font-size: 25px;
+}
+#links a:hover{
+    color: #ccc;
 }
 
 @media screen and (max-width: 1200px){
